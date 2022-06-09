@@ -1,0 +1,44 @@
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    position: relative;
+    height: 70px;
+}
+
+.navbar-brand {
+    height: 60px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.Ian {
+    background-color: gray;
+    font-size: 25px;
+    border-radius: 0;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#nav-list {
+    margin-top: 10px;
+
+}
+
+#nav-list a {
+    color: #ffffff;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #ff6363;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
