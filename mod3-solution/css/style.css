@@ -7,6 +7,10 @@ nav {
     height: 70px;
 }
 
+h1 {
+    padding-top: 10%;
+}
+
 .navbar-brand {
     height: 60px;
     font-size: 30px;
@@ -17,6 +21,7 @@ nav {
     background-color: gray;
     font-size: 25px;
     border-radius: 0;
+    margin: 0 auto 0 auto;
 }
 
 .navbar-toggle {
@@ -31,12 +36,14 @@ nav {
 }
 
 #nav-list a {
+    top: -10px;
     color: #ffffff;
     text-align: center;
+    background-color: #ff6363;
 }
 
 #nav-list a:hover {
-    background: #ff6363;
+    border: rgb(255, 255, 255) solid;
 }
 
 #nav-list a span {
