@@ -8,7 +8,7 @@ LunchCheckController.$inject = ['$scope'];
 function LunchCheckController($scope) {
 
     $scope.text = ""
-    $scope.funny = ""
+    //$scope.funny = ""
     $scope.check = function () {
         $scope.items = $scope.text.split(',').length;
         if ($scope.text == "")
