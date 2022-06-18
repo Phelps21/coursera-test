@@ -1,9 +1,10 @@
 <br>
 <br>
+
 <h3>Found Items</h3>
 <ol>
     <li ng-repeat="item in nid.items">
-        {{ item.name }}  |  {{ item.description }}
+        {{ item.name }} | {{item.short_name}} | {{ item.description }}
         <button ng-click="nid.onRemove({index: $index})">Remove?</button>
     </li>
 </ol>
