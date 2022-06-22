@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MenuApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+
+    <!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.30/angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="js/data.module.js"></script>
+    <script src="js/menuapp.module.js"></script>
+
+    <!-- Routes -->
+    <script src="js/routes.js"></script>
+
+    <!-- Artifacts -->
+    <script src="js/categories.component.js"></script>
+    <script src="js/items.component.js"></script>
+    <script src="js/menudata.service.js"></script>
+    <script src="js/items.controller.js"></script>
+    <script src="js/categories.controller.js"></script>
+</head>
+<body>
+
+    
+    <ui-view></ui-view>
+    <br>
+    <a ui-sref-active="active" ui-sref="home">Home</a>
+
+</body>
+</html>
